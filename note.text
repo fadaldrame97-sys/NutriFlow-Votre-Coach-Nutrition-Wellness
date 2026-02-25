@@ -1,0 +1,11 @@
+| Élément         | Obligatoire ?      |
+| --------------- | ------------------ |
+| Header          | ✅                  |
+| Search bar      | ✅                  |
+| Loader          | ✅                  |
+| Grid recettes   | ✅                  |
+| Nutri-Badge     | ✅                  |
+| Modal détails   | ✅                  |
+| Section Favoris | ✅                  |
+| Total calories  | ✅                  |
+| Plusieurs pages | ❌ (pas nécessaire) |
