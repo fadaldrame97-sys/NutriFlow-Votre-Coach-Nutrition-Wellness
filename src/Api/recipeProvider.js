@@ -1,11 +1,13 @@
 export async function ApiRecuperation() {
 
 try{
-  const respnose= await fetch('https://dummyjson.com/recipes');
-  const date= respnose.json();  
+  const response= await fetch('https://dummyjson.com/recipes');
+  const data= await response.json();  
    console.log(data);
+   return data;
 }
-catch(Erreur){
+catch(error)
+{
     alert("plat introuvable");
 
 }
