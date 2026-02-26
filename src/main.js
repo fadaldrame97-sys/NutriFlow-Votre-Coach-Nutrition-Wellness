@@ -1,3 +1,9 @@
  import { ApiRecuperation } from "./Api/recipeProvider.js";
 
-ApiRecuperation();
+
+
+
+
+ async function intialiser() {
+   const data =await ApiRecuperation(); 
+ }
