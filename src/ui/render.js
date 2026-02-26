@@ -1,7 +1,7 @@
 
 export function afficherRecettes(){
   
- const container=   
+const container = document.querySelector("#recipes");
 
 
 }
