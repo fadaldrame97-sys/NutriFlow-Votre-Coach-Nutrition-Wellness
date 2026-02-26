@@ -1,4 +1,4 @@
-async function ApiRecuperation() {
+export async function ApiRecuperation() {
 
 try{
   const respnose= await fetch('https://dummyjson.com/recipes');
