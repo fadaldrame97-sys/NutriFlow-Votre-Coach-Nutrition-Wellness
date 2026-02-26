@@ -1,4 +1,7 @@
 
-function afficherRecettes(){
+export function afficherRecettes(){
+  
     
+
+
 }
