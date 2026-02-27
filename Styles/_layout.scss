@@ -35,14 +35,21 @@ background-color: secondary-color;
     width: 60%;
     padding: 12px 18px;
     border-radius: 30px;
-    border: 2px solid #27ae60; // vert
+    border: 2px solid #27ae60; 
     font-size: 16px;
     outline: none;
     transition: 0.3s;
 
-    &:focus {
-      background-color: #eafaf1; // vert très clair
-      box-shadow: 0 0 10px rgba(39, 174, 96, 0.4);
-    }
+   
   }
+}
+#loader {
+  text-align: center;
+  font-size: 20px;
+  color: #27ae60;
+  margin: 30px 0;
+}
+
+.hidden {
+  display: none;
 }
