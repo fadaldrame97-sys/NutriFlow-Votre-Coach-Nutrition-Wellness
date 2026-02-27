@@ -26,3 +26,23 @@ background-color: secondary-color;
   margin: 0;
   color: rgb(221, 40, 40);
 }
+.search-section {
+  width: 90%;
+  margin: 30px auto;
+  text-align: center;
+
+  input {
+    width: 60%;
+    padding: 12px 18px;
+    border-radius: 30px;
+    border: 2px solid #27ae60; // vert
+    font-size: 16px;
+    outline: none;
+    transition: 0.3s;
+
+    &:focus {
+      background-color: #eafaf1; // vert très clair
+      box-shadow: 0 0 10px rgba(39, 174, 96, 0.4);
+    }
+  }
+}
