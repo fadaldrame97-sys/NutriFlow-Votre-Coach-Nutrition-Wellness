@@ -1,10 +1,30 @@
 .header {
-  background-color: #2ecc71;
-  padding: 20px 0;
+  background: linear-gradient(135deg, #27ae60, #2ecc71);
+  padding: 30px 0;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  color: white;
 }
-
-body {
-  background-color: secondary-color;
+.header .container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.header img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.header .header-text h1 {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  opacity: 0.9;
+}
+.header .header-text h2 {
+  font-size: 24px;
+  margin: 5px 0 0 0;
+  font-weight: 700;
 }
 
 .container {
