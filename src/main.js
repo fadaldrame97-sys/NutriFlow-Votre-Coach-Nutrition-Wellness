@@ -1,13 +1,26 @@
  import { ApiRecuperation } from "./Api/recipeProvider.js";
  import { afficherRecettes } from "./ui/render.js";
 
-
+let ToutesLesRecettes=[];
 
 
 
 
  async function intialiser() {
    const data =await ApiRecuperation(); 
-    afficherRecettes(data.recipes);
+    ToutesLesRecettes=data.recipes;
+    afficherRecettes(ToutesLesRecettes);
  }
+const input=document.getElementById("searchInput");
+input.addEventListener("input",()=>{
+    const valeur=input.value.toLowerCase();
+
+    const filtrer=ToutesLesRecettes.filter(recette=>
+recette.name.toLowerCase().includes(valeur)
+    );
+    afficherRecettes(filtrer);
+})
+
+
+
 intialiser();
