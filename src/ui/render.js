@@ -11,7 +11,9 @@ recettes.forEach(recette => {
     const card= document.createElement("div");
     card.classList.add("card");
 
-    card.innerHTML="";
+    card.innerHTML=`
     <h3>${recette.name}</h3>
-    
+     <img src="${recette.image}" alt="${recette.name}">
+      <p>Calories : ${recette.caloriesPerServing}</p>
+    `;
 });
