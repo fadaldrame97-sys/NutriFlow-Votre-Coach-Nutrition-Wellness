@@ -9,7 +9,7 @@ const loader = document.getElementById("loader");
 
  async function intialiser() {
 
-    loader.classList.remove("hidden");
+     loader.classList.remove("hidden");
    const data =await ApiRecuperation(); 
     ToutesLesRecettes=data.recipes;
     afficherRecettes(ToutesLesRecettes);
