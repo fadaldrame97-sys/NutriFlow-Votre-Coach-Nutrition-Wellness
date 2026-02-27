@@ -22,6 +22,7 @@ input.addEventListener("input",()=>{
 recette.name.toLowerCase().includes(valeur)
     );
     afficherRecettes(filtrer);
+     loader.classList.add("hidden");
 })
 
 
