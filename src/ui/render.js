@@ -4,7 +4,7 @@ export function afficherRecettes(recettes){
 const container = document.querySelector("#recipes");
 
 container.innerHTML="";
-}
+
 
 recettes.forEach(recette => {
 
@@ -16,4 +16,7 @@ recettes.forEach(recette => {
      <img src="${recette.image}" alt="${recette.name}">
       <p>Calories : ${recette.caloriesPerServing}</p>
     `;
+    
+      container.appendChild(card);
 });
+}
